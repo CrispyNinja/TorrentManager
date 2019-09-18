@@ -6,19 +6,21 @@ Great for managing a remote PLEX server where you download a lot of files locall
 
 For movies it will simply transfer the files to the directory of your choosing.
 
+--------------------------------------------------------
+
 ### Features
 * Automatic Uploads
 * Create every folder for you
 * Delete the local files it has successfully transferred
 * Automatically find the name of the show
 * Add your own file extensions
+* Run continuously in background w/ custom intervals
 
 ## Settings
 Remember to change the IP adress, username and password.
 
 **Change the local and remote paths to fit your setup**
 
---------------------------------------------------------
 ## Required modules
 Install [Paramiko](http://www.paramiko.org/) and [GuessIt](https://github.com/guessit-io/guessit) with PIP.
 
